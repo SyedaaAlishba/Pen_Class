@@ -1,6 +1,13 @@
 public class Main {
     public static void main(String[] args) {
 
+        point pen_point =new point(50,50);
+        System.out.println("Initial"+pen_point.getPosition());
+        pen_point.setAxis(120,220);
+        System.out.println("Updated point"+pen_point.getPosition());
+        System.out.println("X "+pen_point.getX());
+        System.out.println("Y "+pen_point.getY());
+
         color pen_color= new color();
         pen_color.setColor("Black");
 
